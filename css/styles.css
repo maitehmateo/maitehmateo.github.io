@@ -1,8 +1,8 @@
 
 /******************
 FONTS
-Merriweather, Georgia, serif; font-weight: 700
-Roboto, Helvetica, Arial, sans-serif; font-weight: 400
+Merriweather, Georgia, serif; para titles, citas destacadas, font-weight: 700
+Roboto, Helvetica, Arial, sans-serif; para texto y pies de foto, font-weight: 400
 
 COLORES
 
@@ -27,14 +27,20 @@ html {
 
 
 body {
-  font-family:Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 400; 
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: normal; 
   font-size: 16px;/* 16px is the standard font size */
-  line-height: 1.8;
+  line-height: 1.6;
   text-align: left; 
   background-color:#ffffff;
   color:#000000;
 }
+
+/******************
+HEADER AND NAV STYLES 
+******************/
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Merriweather, Georgia, serif; 
@@ -89,20 +95,6 @@ HEADER AND NAVIGATION MENU
 **************************/
 
 
-.main-image {
-  max-width: 100%;
-  height;   
-}
-
-header h1 {color:#ff6600;}
-
-header h2 {color:#000000;
-text-align: center;}
-
-header h3 { 
-  margin: 8px;
-  color:#000000;
-}
 
 nav {
   font-family:'HaginCapsMedium';
@@ -128,7 +120,25 @@ li {
     taking the whole wide page. 
     Info: http://marksheet.io/html-block-inline.html 
     Examples: https://www.w3schools.com/css/css_display_visibility.asp */
-  padding: 8px 8px 8px 8px; align-content: center;}
+  padding: 8px 8px 8px 8px; 
+  align-content: center;
+}
+
+.main-image {
+  max-width: 100%;
+  height; auto;  
+}
+
+header h1 {color:#ff6600;}
+
+header h2 {color:#000000;
+text-align: center;}
+
+header h3 { 
+  margin: 8px;
+  color:#000000;
+}
+
 
 a { 
   color: #ffffff;
@@ -140,22 +150,21 @@ a:hover {
 }
 
 
-header {
-  
-  /* MAITE JODER TIA!!!! ACUERDATE DE CAMBIAR LA URL DE ESTA IMAGEN 
-  background-image:url("file:///Volumes/CUNYJ2018/Untitled-1.jpg") */
-  /* If you wanted you could add a  
+
+/* header {
+   If you wanted you could add a  
   background-image. For this you can type, before background-color the property and value
-  background-image:url("insert here th url of the image");  */
-  background-image:"file:////photos/workersmain-1.jpg";background-size:1000px max-width;align-items: center;                                                  cover;
+  background-image:url("insert here th url of the image"); 
+  background-image:url("photos/workersmain-1.jpg");background-size:1000px; max-width: 100%;  } */
+                                                    
   /* Means cover the entire element. Examples
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover */
-}
 
 
 /**************************
 BODY CONTENT
 **************************/
+
 article {
   max-width: 750px;
   padding: 10px;
@@ -163,8 +172,6 @@ article {
 }
 
 iframe {align-self: center;}
-
-
 
 
 
@@ -177,7 +184,6 @@ figure {
 img {
   max-width: 100%;
   height: auto;
-  line-height:10;
 }
 
 figcaption {
@@ -198,18 +204,18 @@ figcaption {
 blockquote { 
   border-top: 2px solid #ff6600;
   border-bottom: 2px solid #ff6600;
-color: #ff6600;
-font-family: Arial, sans-serif;
-font-size: 16px;
-margin: 20px;
-padding: 20x;
-text-align: center; }
+  color: #ff6600;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 20px;
+  padding: 20px; 
+  text-align: center; 
+}
 
 footer {
   border-top: 4px solid #ff6600;
-
   text-align: center;
-  color:#ff6600;/*white*/
+  color:#ff6600;/*orange*/
   padding: 10px 10px;
 }
 
