@@ -29,7 +29,7 @@ html {
 body {
   font-family:Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400; 
-  font-size: 18px;/* 16px is the standard font size */
+  font-size: 16px;/* 16px is the standard font size */
   line-height: 1.8;
   text-align: left; 
   background-color:#ffffff;
@@ -46,9 +46,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.2;
-  padding:06px 06px 0px 06px ;
+  padding-bottom: 10px ;
 }
 
 h2 {
@@ -78,9 +78,9 @@ h3 {
 }
 
 p {
-  font-family:Roboto;
-  font-size: 18px;
-  line-height: 1,5;
+  font-family:Monsterrat,serif;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 400;
   text-align: left;
 }
@@ -108,11 +108,12 @@ nav {
   font-family:'HaginCapsMedium';
   text-align: center;
   color:#ffffff
-  padding: 8px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
   /* Top, right, bottom, left */
   width: 100%;/*Make navigation 100% width of the viewport*/
   background: rgb(255,102,0);
   border-bottom: 4px solid #ff6600;
+  border-top: 4px
   color: #ffffff;
 }
 
@@ -127,7 +128,7 @@ li {
     taking the whole wide page. 
     Info: http://marksheet.io/html-block-inline.html 
     Examples: https://www.w3schools.com/css/css_display_visibility.asp */
-  padding: 0px 8px 0px 8px;}
+  padding: 8px 8px 8px 8px; align-content: center;}
 
 a { 
   color: #ffffff;
@@ -146,7 +147,7 @@ header {
   /* If you wanted you could add a  
   background-image. For this you can type, before background-color the property and value
   background-image:url("insert here th url of the image");  */
-  background-image:"file:////photos/workersmain-1.jpg";background-size:1000px max-width;                                                  cover;
+  background-image:"file:////photos/workersmain-1.jpg";background-size:1000px max-width;align-items: center;                                                  cover;
   /* Means cover the entire element. Examples
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover */
 }
@@ -156,12 +157,12 @@ https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&pre
 BODY CONTENT
 **************************/
 article {
-  max-width: 900px;
+  max-width: 750px;
   padding: 10px;
   margin: auto;
 }
 
-iframe {align-items: center;}
+iframe {align-self: center;}
 
 
 
@@ -170,6 +171,7 @@ iframe {align-items: center;}
 figure {
   display: block; 
   margin: 20px;
+
 }
 
 img {
@@ -198,10 +200,10 @@ blockquote {
   border-bottom: 2px solid #ff6600;
 color: #ff6600;
 font-family: Arial, sans-serif;
-font-size: 18px;
-margin: 30px;
+font-size: 16px;
+margin: 20px;
 padding: 20x;
-text-align: right; }
+text-align: center; }
 
 footer {
   border-top: 4px solid #ff6600;
